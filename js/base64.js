@@ -1,6 +1,6 @@
-let textToBase64 = text => {
+const textToBase64 = text => {
     return btoa(text)
 }
-let base64ToText = base64 => {
+const base64ToText = base64 => {
     return atob(base64)
 }

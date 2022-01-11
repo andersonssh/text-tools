@@ -106,7 +106,6 @@ function textToMorse(text){
         // add value to list
         morse.push( m === undefined ? '?': m + ' ')
     }
-
     return morse.join('')
 }
 
@@ -119,7 +118,4 @@ function morseToText(morse){
         text.push( t === undefined ? '->UNDEFINED<-': t)
     }
     return text.join('')
-    
-    
-
 }
