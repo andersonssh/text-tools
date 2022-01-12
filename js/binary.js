@@ -8,6 +8,7 @@ const textToBinary = text => {
     }
     return result.join(' ')
 }
+
 const binaryToText = binary => {
     binary = binary.split(' ')
     let ascii = []
