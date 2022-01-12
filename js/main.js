@@ -1,1 +1,0 @@
-console.log(TEXT_TO_MORSE('a'))

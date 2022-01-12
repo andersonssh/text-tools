@@ -1,6 +1,6 @@
 # Ferramentas de texto
 Ferramentas para textos:
-- [ ] Binário.
+- [x] Binário.
 - [x] Morse.
 - [x] Base 64.
 - [ ] Cifra de César.
