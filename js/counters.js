@@ -21,7 +21,7 @@ const countOcurrences = (word, text) => {
                 indexWord++
             }
         }  
-
+    
     }
     return result
 }

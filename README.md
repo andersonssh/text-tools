@@ -1,12 +1,12 @@
 # Ferramentas de texto
 Ferramentas para textos:
 - [ ] Binário.
-- [ ] Morse.
-- [ ] Base 64.
+- [x] Morse.
+- [x] Base 64.
 - [ ] Cifra de César.
-- [ ] Texto para maiúsculo e minúsculo.
-- [ ] Inversão de texto.
-- [ ] Inversão de palavras.
+- [x] Texto para maiúsculo e minúsculo.
+- [x] Inversão de texto.
+- [x] Inversão de palavras.
 - [ ] Palavra criptografada por chave.
-- [ ] Contador de caracteres e palavras.
-- [ ] Contador de ocorrências.
+- [x] Contador de caracteres e palavras.
+- [x] Contador de ocorrências.
