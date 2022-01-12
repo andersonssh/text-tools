@@ -1,0 +1,50 @@
+.container{
+    box-shadow: 0 0 5px rgba(167, 167, 167, 0.747);
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: content-box;
+    color: #F84754;
+    font-family: 'Hind Siliguri', sans-serif;;
+    font-weight: 500;
+    font-size: 20px;
+}
+h1{
+    margin: 15px 0;
+    font-weight: 500;
+}
+select{
+    border: 1px solid rgb(139, 139, 139);
+    background-color: white;
+    padding: 0 5px;
+    font-size: 16px;
+}
+select:focus-visible{
+    outline: none;
+}
+.input{
+    text-align: left;
+    width: 60%;
+    margin-top: 30px;
+}
+textarea{
+    width: 100%;
+    height: 150px;
+}
+textarea:focus{
+    border: 1px solid #F84754;
+    outline: none;
+    border-radius: 3px;
+}
+#action{
+    margin-top: 30px;
+    border-radius: 50px;
+    padding: 5px 10px;
+    background-color: #F84754;
+    color: white;
+    border: 1px solid rgb(107, 107, 107)
+}
+#action:hover{
+    background-color: #fc2433;
+}
