@@ -19,7 +19,7 @@ const binaryToText = binary => {
         for (bit in byte){
             sum += byte[bit]*2**bit
         }
-        ascii.push(sum)
+        ascii.push(String.fromCharCode(sum))
         
     }
     return ascii.join('')

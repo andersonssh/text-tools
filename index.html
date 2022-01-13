@@ -19,31 +19,24 @@
 <body>
     <main class="container">
         <h1>Ferramentas de texto</h1>
-            <select>
-                <optgroup label="Conversores de texto">
-                    <option value="1">Converter em Binário</option>
-                    <option value="2">Converter em Morse</option>
-                    <option value="3">Transformar em maiúsculo</option>
-                    <option value="4">Transformar em minúsculo</option>
-                    <option value="5">Inverter texto</option>
-                    <option value="5">Inverter palavras</option>
-                </optgroup>
-                <optgroup label="Contadores">
-                    <option value="">Contar letras</option>
-                    <option value="">Contar palavras</option>
-                    <option value="">Contador de ocorrências</option>
-                </optgroup>
-                
+            <select id="menu">
+                    <option value="Binary">Convert to Binary</option>
+                    <option value="Morse">Convert to Morse</option>
+                    <option value="Upper">Capitalize</option>
+                    <option value="Lower">Make lowercase</option>
+                    <option value="Invert Text">Invert text</option>
+                    <option value="Invert Word">Invert words only</option>
+                    <option value="Base 64">Encode in base 64</option>
             </select>
             <div class="input">
-                <div class="title">Texto</div>
+                <div class="title">Text</div>
                 <textarea id="zone1"></textarea>
             </div>
         
         <button id="action" data-zone="1"><i class="fas fa-chevron-down"></i></button>
         
         <div class="input">
-            <div id="var" class="title">Binario</div>
+            <div id="var" class="title">binary</div>
             <textarea id="zone2"></textarea>
         </div>
     </main>

@@ -115,7 +115,7 @@ function morseToText(morse){
     for(cod of morse){
         let t = MORSE_TO_CHAR.get(cod)
         // add value to list
-        text.push( t === undefined ? '->UNDEFINED<-': t)
+        text.push( t === undefined ? '': t)
     }
     return text.join('')
 }
