@@ -1,12 +1,18 @@
-# Ferramentas de texto
-Ferramentas para textos:
-- [x] Binário.
-- [x] Morse.
-- [x] Base 64.
-- [ ] Cifra de César.
-- [x] Texto para maiúsculo e minúsculo.
-- [x] Inversão de texto.
-- [x] Inversão de palavras.
-- [ ] Palavra criptografada por chave.
-- [x] Contador de caracteres e palavras.
-- [x] Contador de ocorrências.
+# Text Tools 
+
+Text Tools includes several functions for text manipulation.
+
+Access by clicking [here](https://andersonssh.github.io/text-tools)
+
+![demo](https://github.com/andersonssh/ferramentas-texto/blob/main/demo/demo.gif)
+
+The function can be reversed just by changing the text box.
+
+![binary function](https://github.com/andersonssh/ferramentas-texto/blob/main/demo/binary.gif)
+
+Demo of all functions.
+
+![all functions](https://github.com/andersonssh/ferramentas-texto/blob/main/demo/all.gif)
+
+
+
